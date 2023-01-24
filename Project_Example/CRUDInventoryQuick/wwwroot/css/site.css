@@ -1,0 +1,48 @@
+html {
+    font-size: 14px;
+   
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 30px;
+    font-family: "Times New Roman";
+}
+
+h1 {
+    color: palevioletred;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#Tablas{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+p
+{
+    padding-bottom: 10px;
+}
+
+input.form-check-input{
+    width: 17px;
+    height: 17px;
+}
+
+a.nav-link:hover {
+    color: #1e0fdb  !important;
+}
+
+a.navbar-brand:hover{
+    color: #ff0000 !important;
+}
